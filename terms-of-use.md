@@ -1,9 +1,9 @@
 # Klense Terms of Use
 
 **Effective date:** July 11, 2026
-**Last updated:** July 11, 2026
+**Last updated:** July 12, 2026
 
-These Terms of Use (the "Terms") are a legal agreement between you and Cole Thapanawat, sole proprietor ("Klense," "we," "us") governing your use of the Klense iOS application and related services (the "App"). By creating an account, subscribing, or using the App, you agree to these Terms and to our [Privacy Policy](https://klense.app/privacy) [REPLACE with live URL]. If you do not agree, do not use the App.
+These Terms of Use (the "Terms") are a legal agreement between you and Cole Thapanawat, sole proprietor ("Klense," "we," "us") governing your use of the Klense iOS application and related services (the "App"). By creating an account, subscribing, or using the App, you agree to these Terms and to our [Privacy Policy](https://cat391.github.io/klense-legal/privacy.html). If you do not agree, do not use the App.
 
 ## 1. What Klense is — and is not
 
@@ -17,7 +17,7 @@ You must be at least **13 years old** to use the App. If you are under the age o
 
 ## 3. Your account
 
-You need an account (email/password, Sign in with Apple, or Google) to use the App. You are responsible for the accuracy of your account information and for all activity under your account, and you agree to keep your credentials secure. You can delete your account at any time in Settings → **Delete Account**; deletion is immediate and irreversible and removes your data from our servers, but it does **not** cancel your subscription — manage that separately with Apple (Section 5.3).
+You need an account (Sign in with Apple or Google sign-in) to use the App. You are responsible for the accuracy of your account information and for all activity under your account, and you agree to keep the Apple or Google account you sign in with secure. You can delete your account at any time in Settings → **Delete Account**; deletion is immediate and irreversible and removes your data from our servers, but it does **not** cancel your subscription — manage that separately with Apple (Section 5.3).
 
 ## 4. License
 

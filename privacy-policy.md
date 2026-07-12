@@ -1,7 +1,7 @@
 # Klense Privacy Policy
 
 **Effective date:** July 11, 2026
-**Last updated:** July 11, 2026
+**Last updated:** July 12, 2026
 
 Klense is a personal hygiene system for iOS, operated by Cole Thapanawat, sole proprietor ("Klense," "we," "us"). This policy explains what information the Klense app collects, how it is used, who processes it, and the controls you have over it.
 
@@ -22,11 +22,11 @@ This policy applies to the Klense iOS app and the account you create in it. It d
 
 When you create an account or sign in we collect:
 
-- **Email address** — via email/password sign-up, Sign in with Apple, or Google sign-in. If you use Apple's "Hide My Email," we receive the private relay address Apple generates.
+- **Email address** — via Sign in with Apple or Google sign-in. If you use Apple's "Hide My Email," we receive the private relay address Apple generates.
 - **Authentication identifiers** — a random account ID (UUID) and, for Apple/Google sign-in, the provider's account identifier.
 - **Name (incidental)** — Apple and Google may transmit your name as part of sign-in. Klense does not ask for, display, or use your name anywhere in the app; if a provider sends one, it may sit unused in your authentication record and is deleted with your account.
 
-We never see or store your password in usable form; authentication is handled by our backend provider (Supabase). Your sign-in session is stored securely in the iOS Keychain on your device.
+Klense does not offer password-based sign-up, so we never receive or store a password; sign-in is performed by Apple or Google and handled by our backend provider (Supabase). Your sign-in session is stored securely in the iOS Keychain on your device.
 
 ### 2.2 Hygiene personalization profile
 
@@ -111,7 +111,7 @@ We do not sell personal information, do not share it for cross-context behaviora
 - **Provide the service** — personalize your routine, compute your hygiene score on-device, sync your data across devices, and operate the AI coach (contractual necessity).
 - **Process your subscription** — recognize your purchase across devices (contractual necessity).
 - **Improve and secure the app** — pseudonymous analytics, crash diagnosis, and abuse/rate-limit enforcement (legitimate interests).
-- **Communicate with you** — account emails such as confirmation or password reset, and replies to support requests (contractual necessity / legitimate interests).
+- **Communicate with you** — service emails about your account and replies to support requests (contractual necessity / legitimate interests).
 - **AI data sharing** — solely with your prior, explicit **consent**, which you give once before first use. You can withdraw it by not using the coach, by deleting the app (your consent choice is stored only on your device and is cleared with it), or by contacting us.
 
 We do not use your personal information to train AI models, and we do not permit our providers to do so on our behalf.
