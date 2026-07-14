@@ -2,7 +2,7 @@
 
 **Last updated:** July 14, 2026
 
-Klense is a personal hygiene system for iOS, operated by Cole Thapanawat, sole proprietor.
+Klense is a personal hygiene system for iOS.
 
 ## Contact us
 
