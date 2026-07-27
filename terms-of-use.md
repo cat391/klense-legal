@@ -36,7 +36,7 @@ Klense requires an active auto-renewing subscription ("Klense Premium"). There i
 | Monthly | `com.klense.premium.monthly` | **US $3.99** | 1 month |
 | Annual | `com.klense.premium.annual` | **US $24.99** (≈ $2.08/month) | 1 year |
 
-Prices are in U.S. dollars and may vary by country; the price shown in the App at the time of purchase is the price you will be charged. There is currently no free trial or introductory offer. Klense Premium unlocks the full App: your personalized routine, task timers and tracking, the hygiene score, how-to guides and rationales, the Insights tab, the AI assistant (subject to fair-use limits, Section 7.3), and sync across your devices.
+Prices are in U.S. dollars and may vary by country; the price shown in the App at the time of purchase is the price you will be charged. There is currently no free trial or introductory offer. Klense Premium unlocks the full App: your personalized routine, task timers and tracking, the hygiene score, how-to guides and rationales, the Insights tab, the AI assistant (subject to fair-use limits, Section 6.3), and sync across your devices.
 
 ### 5.2 Billing and automatic renewal
 
