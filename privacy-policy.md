@@ -1,7 +1,7 @@
 # Klense Privacy Policy
 
 **Effective date:** July 11, 2026
-**Last updated:** July 12, 2026
+**Last updated:** July 27, 2026
 
 Klense is a personal hygiene system for iOS, operated by Cole Thapanawat, sole proprietor ("Klense," "we," "us"). This policy explains what information the Klense app collects, how it is used, who processes it, and the controls you have over it.
 
@@ -101,6 +101,7 @@ We share personal information only with the service providers below, only so the
 | **Supabase** | Backend: authentication, database, sync, serverless functions | Email, account ID, and the synced data in Sections 2.1–2.4 |
 | **Google (Gemini API)** | Generates AI coach replies | The per-message content in Section 4, with no account identifiers; only after your explicit consent |
 | **Apple** | Payments, subscriptions, sign-in | Handled under Apple's own terms; Apple does not give us your payment details |
+| **Superwall** | Hosts and configures the paywall; runs paywall experiments | Your subscription status and the outcome of each purchase or restore, keyed to an identifier Superwall generates for your device — we never send it your email, name, or account ID |
 | **Mixpanel** | Usage analytics (US-hosted) | Pseudonymous usage events (Section 2.6) keyed to a hashed account ID |
 | **Sentry** | Crash and error reporting (US-hosted) | Crash/error reports (Section 2.6) keyed to a hashed account ID; IP addresses suppressed |
 

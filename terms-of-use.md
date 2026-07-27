@@ -1,7 +1,7 @@
 # Klense Terms of Use
 
 **Effective date:** July 11, 2026
-**Last updated:** July 12, 2026
+**Last updated:** July 27, 2026
 
 These Terms of Use (the "Terms") are a legal agreement between you and Cole Thapanawat, sole proprietor ("Klense," "we," "us") governing your use of the Klense iOS application and related services (the "App"). By creating an account, subscribing, or using the App, you agree to these Terms and to our [Privacy Policy](https://cat391.github.io/klense-legal/privacy.html). If you do not agree, do not use the App.
 
@@ -86,7 +86,7 @@ We may update the App, its features, and fair-use limits over time, and may modi
 
 ## 11. Third-party services
 
-The App relies on third-party services (Apple, Supabase, Google, Mixpanel, Sentry) described in the Privacy Policy. Their availability is outside our control, and their terms govern your relationship with them where applicable.
+The App relies on third-party services (Apple, Supabase, Google, Superwall, Mixpanel, Sentry) described in the Privacy Policy. Their availability is outside our control, and their terms govern your relationship with them where applicable.
 
 ---
 
