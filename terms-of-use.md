@@ -1,13 +1,13 @@
 # Klense Terms of Use
 
 **Effective date:** July 11, 2026
-**Last updated:** July 27, 2026
+**Last updated:** August 3, 2026
 
 These Terms of Use (the "Terms") are a legal agreement between you and Cole Thapanawat, sole proprietor ("Klense," "we," "us") governing your use of the Klense iOS application and related services (the "App"). By creating an account, subscribing, or using the App, you agree to these Terms and to our [Privacy Policy](https://cat391.github.io/klense-legal/privacy.html). If you do not agree, do not use the App.
 
 ## 1. What Klense is — and is not
 
-Klense is a personal hygiene system: it builds a personalized routine of hygiene tasks, tracks your completion of them, computes an on-device hygiene score, and offers an AI assistant that can suggest adjustments to your routine.
+Klense is a personal hygiene system: it builds a personalized routine of hygiene tasks, tracks your completion of them, computes an on-device hygiene score, and offers an AI assistant that can suggest adjustments to your routine (a Klense Premium feature — Section 5).
 
 **Klense is not a medical service.** Its content and the AI assistant's guidance are educational and general-wellness in nature. They are not medical advice, diagnosis, or treatment, and are not a substitute for the advice of a physician, dermatologist, dentist, or other qualified professional. Never disregard or delay professional advice because of something in the App. If you have a medical condition or concern — including persistent skin, scalp, or dental issues — consult a professional.
 
@@ -23,20 +23,30 @@ You need an account (Sign in with Apple or Google sign-in) to use the App. You a
 
 Subject to these Terms, we grant you a personal, limited, revocable, **non-transferable** license to use the App on any Apple-branded device that you own or control, as permitted by the Usage Rules in the Apple Media Services Terms and Conditions (except that the App may be accessed and used by other accounts associated with you via Family Sharing or volume purchasing, where applicable). This license is for your personal, non-commercial use. We reserve all rights not expressly granted.
 
-You may not: copy, modify, distribute, sell, rent, or sublicense the App; reverse engineer or attempt to extract its source code except as permitted by law; circumvent usage limits, subscription entitlement, or security measures; use the App to build a competing product; or use automated systems to access the App or its AI assistant.
+You may not: copy, modify, distribute, sell, rent, or sublicense the App; reverse engineer or attempt to extract its source code except as permitted by law; circumvent usage limits, free-tier feature limits, subscription entitlement, or security measures; use the App to build a competing product; or use automated systems to access the App or its AI assistant.
 
 ## 5. Subscription — Klense Premium
 
-Klense requires an active auto-renewing subscription ("Klense Premium"). There is no free tier: after the onboarding assessment, a subscription is required to use the App.
+**Klense is free to use.** The free tier is the complete hygiene product: your personalized routine and schedule, the full curated task library, every "How To" guide and "Why This Matters" rationale, task timers and completion tracking, your hygiene score, all notification types, up to **3 custom tasks**, profile editing, data export, and sync across your devices. No payment is required and the free tier is not time-limited — you may use the App indefinitely without subscribing.
+
+**Klense Premium** is an optional auto-renewing subscription that unlocks the additional features listed in Section 5.1.
 
 ### 5.1 Plans and pricing
 
 | Plan | Product | Price | Billing period |
 |---|---|---|---|
-| Monthly | `com.klense.premium.monthly` | **US $3.99** | 1 month |
-| Annual | `com.klense.premium.annual` | **US $24.99** (≈ $2.08/month) | 1 year |
+| Monthly | `com.klense.premium.monthly` | **US $2.99** | 1 month |
+| Annual | `com.klense.premium.annual` | **US $19.99** (≈ $1.67/month) | 1 year |
 
-Prices are in U.S. dollars and may vary by country; the price shown in the App at the time of purchase is the price you will be charged. There is currently no free trial or introductory offer. Klense Premium unlocks the full App: your personalized routine, task timers and tracking, the hygiene score, how-to guides and rationales, the Insights tab, the AI assistant (subject to fair-use limits, Section 6.3), and sync across your devices.
+Prices are in U.S. dollars and may vary by country; the price shown in the App at the time of purchase is the price you will be charged. There is currently no free trial or introductory offer.
+
+Klense Premium currently unlocks:
+
+- the **AI assistant**, subject to the fair-use limits in Section 6.3;
+- **Dashboard insights** — the activity heatmap and the analytics features we add alongside it; and
+- **unlimited custom tasks**, lifting the free tier's 3-task limit.
+
+We may add features to Klense Premium over time, and we may change what each tier includes; material changes are handled under Section 10. If we change the price of an existing subscription, Apple will seek your consent before any increase takes effect, in accordance with Apple's rules — otherwise your subscription will not renew at the new price.
 
 ### 5.2 Billing and automatic renewal
 
@@ -44,17 +54,21 @@ Payment is charged to your Apple Account at confirmation of purchase. Your subsc
 
 ### 5.3 Cancelling
 
-You can cancel anytime in your device's Settings → [your name] → Subscriptions (or via the manage-subscription screen inside the App, which opens Apple's subscription manager). Cancelling stops future charges; you keep Premium access until the end of the period you already paid for. Uninstalling the App does not cancel your subscription.
+You can cancel anytime in your device's Settings → [your name] → Subscriptions (or via the manage-subscription screen inside the App, which opens Apple's subscription manager). Cancelling stops future charges; you keep Premium access until the end of the period you already paid for, after which your account returns to the free tier (Section 5.5). Uninstalling the App does not cancel your subscription.
 
 ### 5.4 Refunds
 
 Purchases are processed by Apple, and refunds are governed by Apple's policies. To request a refund, use [reportaproblem.apple.com](https://reportaproblem.apple.com) or contact Apple Support; except as described in Section 14 (Warranty) or where required by law, we cannot issue refunds for App Store purchases ourselves.
 
-### 5.5 Plan changes and restore
+### 5.5 Plan changes, lapse, and restore
 
-The App offers an upgrade option from monthly to annual, which opens Apple's subscription manager; the plan change itself is executed by Apple's subscription system. If you reinstall or switch devices, use **Restore Purchase** to re-activate your entitlement. If your subscription lapses, your data is preserved and access resumes when you resubscribe.
+The App offers an upgrade option from monthly to annual, which opens Apple's subscription manager; the plan change itself is executed by Apple's subscription system. If you reinstall or switch devices, use **Restore Purchase** to re-activate your entitlement.
+
+If your subscription ends — because you cancelled, it lapsed, or a renewal failed — **you are not locked out of the App**. Your account simply returns to the free tier, and your data (profile, routine, completion history, and custom tasks) is preserved. Custom tasks you already created stay on your schedule and remain editable even if you hold more than the free-tier limit; the limit applies only to creating new ones. Premium features become available again as soon as you resubscribe or restore a purchase.
 
 ## 6. The AI assistant
+
+The AI assistant is a Klense Premium feature and requires an active subscription. Before each request is processed, your entitlement is verified against the Apple-signed record of your subscription; requests without an active subscription are declined.
 
 ### 6.1 It is an AI
 
@@ -66,7 +80,7 @@ Before your first message is sent, the App discloses what will be shared with Go
 
 ### 6.3 Fair use and moderation
 
-AI usage is subject to fair-use limits (currently 3 conversations per day, plus overall daily request ceilings that prevent abuse; limits may change). You agree not to use the assistant to generate or solicit content that is unlawful, harmful, or outside the App's hygiene scope, or to attempt to extract its underlying prompts or bypass its safety constraints. You can report an objectionable AI response by touch-and-holding it and choosing **Report**. We may throttle or suspend AI access to prevent abuse.
+AI usage is subject to fair-use limits (currently 3 conversations per day, plus overall daily request ceilings that prevent abuse; limits may change). You agree not to use the assistant to generate or solicit content that is unlawful, harmful, or outside the App's hygiene scope, or to attempt to extract its underlying prompts or bypass its safety constraints. You can report an objectionable AI response by touch-and-holding it and choosing **Report**. We may throttle or suspend AI access to prevent abuse. The assistant also depends on a third-party AI provider and on overall capacity limits we set to keep the feature sustainable, so it may be temporarily unavailable; the rest of the App is unaffected.
 
 ## 7. Your content
 

@@ -1,6 +1,6 @@
 # Klense Support
 
-**Last updated:** July 14, 2026
+**Last updated:** August 3, 2026
 
 Klense is a personal hygiene system for iOS.
 
@@ -20,9 +20,15 @@ For anything privacy-related — a data request, a question about what we collec
 
 ## Common questions
 
+### What's free, and what does Klense Premium add?
+
+Klense is free to use. The free tier includes your personalized routine, the complete task library with every how-to guide, task timers and tracking, your hygiene score, all notifications, up to 3 custom tasks, and sync across your devices — with no time limit.
+
+**Klense Premium** ($2.99/month or $19.99/year) adds the AI hygiene coach, the Dashboard activity heatmap, and unlimited custom tasks.
+
 ### How do I cancel my subscription?
 
-Subscriptions are billed by Apple, so you cancel them with Apple: open the **Settings** app → tap your name → **Subscriptions** → **Klense** → **Cancel Subscription**. You can also open Apple's subscription manager from inside Klense. Cancelling stops future charges, and you keep Premium until the end of the period you already paid for. Deleting the app does **not** cancel the subscription.
+Subscriptions are billed by Apple, so you cancel them with Apple: open the **Settings** app → tap your name → **Subscriptions** → **Klense** → **Cancel Subscription**. You can also open Apple's subscription manager from inside Klense. Cancelling stops future charges, and you keep Premium until the end of the period you already paid for. After that your account returns to the free tier — nothing is deleted, and any custom tasks you already made stay on your schedule. Deleting the app does **not** cancel the subscription.
 
 ### How do I get a refund?
 

@@ -1,14 +1,14 @@
 # Klense Privacy Policy
 
 **Effective date:** July 11, 2026
-**Last updated:** July 27, 2026
+**Last updated:** August 3, 2026
 
 Klense is a personal hygiene system for iOS, operated by Cole Thapanawat, sole proprietor ("Klense," "we," "us"). This policy explains what information the Klense app collects, how it is used, who processes it, and the controls you have over it.
 
 The short version:
 
 - Klense is **local-first**: your data lives on your device and is synced to your private account in our cloud backend so it can be restored across devices.
-- We collect only what the app needs to work: your **email address**, your **hygiene personalization profile**, your **routine and completion history**, and your **subscription status**.
+- We collect only what the app needs to work: your **email address**, your **hygiene personalization profile**, your **routine and completion history**, and — if you subscribe — your **subscription status**.
 - **Your AI chat history never leaves your device**, and it is never stored on our servers. When you send a message to the AI coach, the content needed to answer it is processed by Google Gemini — only after you have explicitly agreed, and never with your name, email, or account ID attached.
 - We show **no ads**, do **no cross-app tracking**, and **never sell or rent your personal information**.
 
@@ -53,7 +53,11 @@ These are preference and lifestyle attributes used solely to personalize your hy
 
 ### 2.4 Subscription information
 
-Apple processes your payment; we never receive your payment card details. We store your subscription **status, plan (monthly/annual), start and expiry dates, and the Apple transaction identifier**, plus a log of subscription lifecycle events (e.g. started, renewed, expired), so your subscription works across your devices.
+Klense is free to use, with an optional Klense Premium subscription. If you never subscribe, no subscription record is created for your account.
+
+If you do subscribe, Apple processes your payment — we never receive your payment card details — and we store your subscription **status, plan (monthly/annual), start and expiry dates, and the Apple transaction identifier**, plus a log of subscription lifecycle events (e.g. started, renewed, expired), so your subscription works across your devices.
+
+Because the AI coach is a paid feature, each message you send to it is accompanied by the **Apple-signed record of your subscription** (a StoreKit transaction), which our backend checks against Apple's signature before generating a reply. That record is verified in memory for that one request: we do not store it, and it is never sent to Google (Section 4).
 
 ### 2.5 AI chat (stored on your device only)
 
@@ -63,7 +67,7 @@ Your conversations with the AI coach are stored **only on your device**. There i
 
 To understand feature usage and fix crashes we collect:
 
-- **Usage events** — e.g. "onboarding completed," "task completed (category, priority)," "paywall viewed," "AI message sent." Events describe *that* an action happened, never its content: no message text, task names, or profile answers are included.
+- **Usage events** — e.g. "onboarding completed," "task completed (category, priority)," "paywall viewed (and which in-app gate triggered it)," "AI message sent." Events describe *that* an action happened, never its content: no message text, task names, or profile answers are included.
 - **Crash and error reports** — crash stack traces, error types, and device metadata (model, OS version).
 
 Both are keyed to a **one-way SHA-256 hash of your account ID** — a pseudonym that lets us count unique users and follow a crash across sessions without exposing who you are. Your email, name, and IP address are actively stripped from crash reports before they are sent.
@@ -80,7 +84,7 @@ All reads happen from a local database on your device. Sections 2.1–2.4 sync t
 
 ## 4. The AI coach and Google Gemini
 
-The AI coach is powered by Google Gemini. Before your **first** message is sent, the app shows a disclosure and asks for your explicit permission; nothing is shared until you agree, and you can decline and still use the rest of the app.
+The AI coach is powered by Google Gemini and is part of Klense Premium; your subscription is verified before any request reaches Google (Section 2.4). Before your **first** message is sent, the app shows a disclosure and asks for your explicit permission; nothing is shared until you agree, and you can decline and still use the rest of the app.
 
 When you send a message, the app transmits the following through our backend to Google's Gemini API to generate a reply:
 
@@ -88,7 +92,7 @@ When you send a message, the app transmits the following through our backend to 
 - **Your hygiene profile** (the attributes in Section 2.2 that tailor advice: skin/hair/scalp/dental attributes, goals, sensitivity, budget)
 - **Your routine snapshot** — your tasks (including any custom task names and instructions you wrote), their frequency and timing, and a coarse recent-adherence signal ("consistent," "spotty," or "lapsed")
 
-Equally important, what is **not** sent to Google: your name, email address, account ID, device identifiers, subscription details, or completion timestamps. Google receives the content above with no identifier linking it to you as a person. Klense does not store your messages or the AI's replies on its servers — only the daily usage counters in Section 2.3. Google processes this data as our service provider to generate the response, subject to [Google's Gemini API terms](https://ai.google.dev/gemini-api/terms); Klense does not permit its use for advertising.
+Equally important, what is **not** sent to Google: your name, email address, account ID, device identifiers, subscription details (including the signed subscription record in Section 2.4), or completion timestamps. Google receives the content above with no identifier linking it to you as a person. Klense does not store your messages or the AI's replies on its servers — only the daily usage counters in Section 2.3. Google processes this data as our service provider to generate the response, subject to [Google's Gemini API terms](https://ai.google.dev/gemini-api/terms); Klense does not permit its use for advertising.
 
 The AI coach is an automated assistant, not a human, and its guidance is educational — not medical advice. You can report any objectionable AI response by touch-and-holding the reply and choosing **Report**.
 
@@ -110,7 +114,7 @@ We do not sell personal information, do not share it for cross-context behaviora
 ## 6. How we use your information
 
 - **Provide the service** — personalize your routine, compute your hygiene score on-device, sync your data across devices, and operate the AI coach (contractual necessity).
-- **Process your subscription** — recognize your purchase across devices (contractual necessity).
+- **Process your subscription** — recognize your purchase across devices, and verify your entitlement before the AI coach runs (contractual necessity).
 - **Improve and secure the app** — pseudonymous analytics, crash diagnosis, and abuse/rate-limit enforcement (legitimate interests).
 - **Communicate with you** — service emails about your account and replies to support requests (contractual necessity / legitimate interests).
 - **AI data sharing** — solely with your prior, explicit **consent**, which you give once before first use. You can withdraw it by not using the coach, by deleting the app (your consent choice is stored only on your device and is cleared with it), or by contacting us.
