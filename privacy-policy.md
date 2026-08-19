@@ -1,7 +1,7 @@
 # Klense Privacy Policy
 
 **Effective date:** July 11, 2026
-**Last updated:** August 3, 2026
+**Last updated:** August 19, 2026
 
 Klense is a personal hygiene system for iOS, operated by Cole Thapanawat, sole proprietor ("Klense," "we," "us"). This policy explains what information the Klense app collects, how it is used, who processes it, and the controls you have over it.
 
@@ -50,12 +50,15 @@ These are preference and lifestyle attributes used solely to personalize your hy
 - **Tasks** — the hygiene tasks on your schedule, including their frequency, priority, and on/off state. If you create custom tasks or accept AI-suggested edits, the task names, "why it matters" text, and step-by-step instructions you or the AI wrote are stored too.
 - **Completion history** — timestamps of when you complete tasks, which logical day they count toward, and whether they were overdue.
 - **AI usage counters** — a per-day count of AI conversations and requests (numbers only, never message content), used to enforce fair-use limits.
+- **Weekly check-in and progress display** — your answers to the weekly check-in questions, and the state of your streak and night-sky progress. These are kept on your device only and are never sent to our servers (Section 3).
 
 ### 2.4 Subscription information
 
 Klense is free to use, with an optional Klense Premium subscription. If you never subscribe, no subscription record is created for your account.
 
 If you do subscribe, Apple processes your payment — we never receive your payment card details — and we store your subscription **status, plan (monthly/annual), start and expiry dates, and the Apple transaction identifier**, plus a log of subscription lifecycle events (e.g. started, renewed, expired), so your subscription works across your devices.
+
+When you buy a subscription we also attach your Klense account ID (the random UUID in Section 2.1 — not your name, email, or Apple ID) to the purchase. Apple keeps it in the signed transaction record and copies it onto every renewal, which lets our server confirm that the subscription presented to it belongs to the account making the request, so one person's purchase cannot unlock the AI coach on someone else's account. Subscriptions bought before this was introduced carry no such identifier and continue to work.
 
 Because the AI coach is a paid feature, each message you send to it is accompanied by the **Apple-signed record of your subscription** (a StoreKit transaction), which our backend checks against Apple's signature before generating a reply. That record is verified in memory for that one request: we do not store it, and it is never sent to Google (Section 4).
 
@@ -80,7 +83,7 @@ Like any online service, the servers listed in Section 5 technically observe you
 
 ## 3. Where your data lives
 
-All reads happen from a local database on your device. Sections 2.1–2.4 sync to your private account in our cloud backend (Supabase, hosted in the United States — AWS US East, North Virginia) so your data restores if you reinstall or switch devices. Access is enforced per-account with row-level security: your data is readable and writable only by your authenticated account. Data stored only on your device and never synced: AI chat history, your AI data-sharing consent choice, and notification preferences.
+All reads happen from a local database on your device. Sections 2.1–2.4 sync, except where a section says otherwise, to your private account in our cloud backend (Supabase, hosted in the United States — AWS US East, North Virginia) so your data restores if you reinstall or switch devices. Access is enforced per-account with row-level security: your data is readable and writable only by your authenticated account. Data stored only on your device and never synced: AI chat history, your AI data-sharing consent choice, your notification preferences, your weekly check-in answers and history, and your streak and night-sky progress display.
 
 ## 4. The AI coach and Google Gemini
 
@@ -90,7 +93,7 @@ When you send a message, the app transmits the following through our backend to 
 
 - **Your message text** and the **prior turns of the current conversation**
 - **Your hygiene profile** (the attributes in Section 2.2 that tailor advice: skin/hair/scalp/dental attributes, goals, sensitivity, budget)
-- **Your routine snapshot** — your tasks (including any custom task names and instructions you wrote), their frequency and timing, and a coarse recent-adherence signal ("consistent," "spotty," or "lapsed")
+- **Your routine snapshot** — your tasks (including any custom task names and the step-by-step instructions attached to them), their frequency, timing, and priority, and a coarse recent-adherence signal ("consistent," "spotty," or "lapsed"). So the assistant can suggest something you don't yet do, the snapshot also lists curated tasks you have **not** added, and the safety rules your profile implies: which tasks are unsuitable for you and why, and which tasks must not be combined
 
 Equally important, what is **not** sent to Google: your name, email address, account ID, device identifiers, subscription details (including the signed subscription record in Section 2.4), or completion timestamps. Google receives the content above with no identifier linking it to you as a person. Klense does not store your messages or the AI's replies on its servers — only the daily usage counters in Section 2.3. Google processes this data as our service provider to generate the response, subject to [Google's Gemini API terms](https://ai.google.dev/gemini-api/terms); Klense does not permit its use for advertising.
 

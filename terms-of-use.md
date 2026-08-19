@@ -1,7 +1,7 @@
 # Klense Terms of Use
 
 **Effective date:** July 11, 2026
-**Last updated:** August 3, 2026
+**Last updated:** August 19, 2026
 
 These Terms of Use (the "Terms") are a legal agreement between you and Cole Thapanawat, sole proprietor ("Klense," "we," "us") governing your use of the Klense iOS application and related services (the "App"). By creating an account, subscribing, or using the App, you agree to these Terms and to our [Privacy Policy](https://cat391.github.io/klense-legal/privacy.html). If you do not agree, do not use the App.
 
@@ -27,7 +27,7 @@ You may not: copy, modify, distribute, sell, rent, or sublicense the App; revers
 
 ## 5. Subscription — Klense Premium
 
-**Klense is free to use.** The free tier is the complete hygiene product: your personalized routine and schedule, the full curated task library, every "How To" guide and "Why This Matters" rationale, task timers and completion tracking, your hygiene score, all notification types, up to **3 custom tasks**, profile editing, data export, and sync across your devices. No payment is required and the free tier is not time-limited — you may use the App indefinitely without subscribing.
+**Klense is free to use.** The free tier is the complete hygiene product: the personalized routine and schedule built for you during onboarding, every "How To" guide and "Why This Matters" rationale for the tasks on your schedule, task timers and completion tracking, your hygiene score and streak, your daily reminders, up to **3 custom tasks**, profile editing, data export, and sync across your devices. You can also browse the entire curated task library for free; adding a new task from it to your schedule is a Premium feature (Section 5.1). No payment is required and the free tier is not time-limited — you may use the App indefinitely without subscribing.
 
 **Klense Premium** is an optional auto-renewing subscription that unlocks the additional features listed in Section 5.1.
 
@@ -43,7 +43,8 @@ Prices are in U.S. dollars and may vary by country; the price shown in the App a
 Klense Premium currently unlocks:
 
 - the **AI assistant**, subject to the fair-use limits in Section 6.3;
-- **Dashboard insights** — the activity heatmap and the analytics features we add alongside it; and
+- **adding tasks from the curated library** to your schedule (browsing the library is free);
+- **Dashboard insights** — the activity heatmap, the weekly check-in report and its Sunday reminder, and the analytics features we add alongside them; and
 - **unlimited custom tasks**, lifting the free tier's 3-task limit.
 
 We may add features to Klense Premium over time, and we may change what each tier includes; material changes are handled under Section 10. If we change the price of an existing subscription, Apple will seek your consent before any increase takes effect, in accordance with Apple's rules — otherwise your subscription will not renew at the new price.
@@ -64,7 +65,7 @@ Purchases are processed by Apple, and refunds are governed by Apple's policies. 
 
 The App offers an upgrade option from monthly to annual, which opens Apple's subscription manager; the plan change itself is executed by Apple's subscription system. If you reinstall or switch devices, use **Restore Purchase** to re-activate your entitlement.
 
-If your subscription ends — because you cancelled, it lapsed, or a renewal failed — **you are not locked out of the App**. Your account simply returns to the free tier, and your data (profile, routine, completion history, and custom tasks) is preserved. Custom tasks you already created stay on your schedule and remain editable even if you hold more than the free-tier limit; the limit applies only to creating new ones. Premium features become available again as soon as you resubscribe or restore a purchase.
+If your subscription ends — because you cancelled, it lapsed, or a renewal failed — **you are not locked out of the App**. Your account simply returns to the free tier, and your data (profile, routine, completion history, and custom tasks) is preserved. Tasks you already created or added from the curated library stay on your schedule and remain editable even if you hold more than the free-tier limit; a lapse limits only what you can add next, and never removes, hides, or locks anything you already have. Premium features become available again as soon as you resubscribe or restore a purchase.
 
 ## 6. The AI assistant
 
@@ -80,7 +81,7 @@ Before your first message is sent, the App discloses what will be shared with Go
 
 ### 6.3 Fair use and moderation
 
-AI usage is subject to fair-use limits (currently 3 conversations per day, plus overall daily request ceilings that prevent abuse; limits may change). You agree not to use the assistant to generate or solicit content that is unlawful, harmful, or outside the App's hygiene scope, or to attempt to extract its underlying prompts or bypass its safety constraints. You can report an objectionable AI response by touch-and-holding it and choosing **Report**. We may throttle or suspend AI access to prevent abuse. The assistant also depends on a third-party AI provider and on overall capacity limits we set to keep the feature sustainable, so it may be temporarily unavailable; the rest of the App is unaffected.
+AI usage is subject to fair-use limits (currently 3 conversations per day, plus daily request ceilings and a monthly usage ceiling on each account that prevent abuse; limits may change). You agree not to use the assistant to generate or solicit content that is unlawful, harmful, or outside the App's hygiene scope, or to attempt to extract its underlying prompts or bypass its safety constraints. You can report an objectionable AI response by touch-and-holding it and choosing **Report**. We may throttle or suspend AI access to prevent abuse. The assistant also depends on a third-party AI provider and on overall capacity limits we set to keep the feature sustainable, so it may be temporarily unavailable; the rest of the App is unaffected.
 
 ## 7. Your content
 
